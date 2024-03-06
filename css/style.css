@@ -1,6 +1,6 @@
 body {
   background-color: #59a674;
-  margin: 10px;
+  margin: 0 auto;
 }
 
 nav#main-nav {
@@ -13,6 +13,14 @@ nav#main-nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: inline-block;
+}
+
+#navbar-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
 }
 
 nav#main-nav ul li {
