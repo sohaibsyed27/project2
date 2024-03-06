@@ -99,6 +99,7 @@ img {
   margin: 10px 0;
 }
 
+
 section#aboutme {
   width: 50%;
   position: relative;
@@ -122,4 +123,8 @@ section#aboutme iframe {
 
 #favorites h2 {
   text-align:center;
+}
+
+.footer {
+  padding-bottom: 5%;
 }
