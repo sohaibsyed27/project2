@@ -44,3 +44,18 @@ nav#main-nav ul li a:hover {
 .clear {
   clear: both;
 }
+
+h1 {
+  text-align:center;
+}
+
+div#resume {
+  background-color:white;
+  margin: 0 auto;
+  width:960px;
+}
+h1#resumehead {
+  background-color: #59a674;
+  position:realtive;
+  padding-bottom:2%;
+}
