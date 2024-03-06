@@ -1,4 +1,5 @@
 body {
+  font-family: "Times New Roman", Times, serif;
   background-color: #59a674;
   margin: 0 auto;
 }
@@ -48,14 +49,77 @@ nav#main-nav ul li a:hover {
 h1 {
   text-align:center;
 }
+#aboutmebody p,  #favorites p {
+  font-family:Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+p {
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+
+h1#about-meheadone {
+  font-family: "Josefin Sans", sans-serif;
+}
 
 div#resume {
   background-color:white;
   margin: 0 auto;
   width:960px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  padding:20px;
 }
-h1#resumehead {
-  background-color: #59a674;
-  position:realtive;
-  padding-bottom:2%;
+.resume {
+  margin: 0 auto;
+  position: relative;
+  padding: 10px 10px;
+  border-top-style: dotted;
+}
+
+#resume h2 {
+  text-align:center;
+}
+
+.portion {
+  background-color: white;
+  width: 50%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:2%;
+  overflow:hidden;
+  padding:10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,10);
+}
+img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+section#aboutme {
+  width: 50%;
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+section#aboutme img {
+  width: 100%;
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+section#aboutme iframe {
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+#favorites h2 {
+  text-align:center;
 }
